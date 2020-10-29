@@ -94,3 +94,10 @@ Noteable features here include spikes at rush hours in number of calls and more 
 The main goal here is to look at clusters of these events. I wanted to identify specific locations that had repeated calls to. For example looking at our previous table, if there was a parking lot located near a downtown area that had multiple calls to, then a 9-11 operator would be able to identify this call and make an informed descison on how to handle it.
 
 Looking at the gif generated below, you can see red clusters of data points. These red clusters would be examples of a possible chance to avoid a call and not assign any personell to.
+
+
+![](images/heat_map.gif)
+
+
+# Conclusion
+
