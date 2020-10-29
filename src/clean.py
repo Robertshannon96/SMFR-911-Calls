@@ -1,5 +1,6 @@
 import pandas as pd
 import datetime as dt
+from pyproj import Proj, transform
 
 
 def concat_data_frames(q1, q2, q3, q4):
@@ -32,6 +33,17 @@ def clean_cols(df):
 def to_time(df):
     df['date_time'] = pd.to_datetime(df['911_date'])
     df['hour'] = df['date_time'].dt.hour
+    df['day'] = df['date_time'].dt.dayofweek
+
+    return df
+
+
+def clean_xy_cords(df):
+    inProj = Proj(init='epsg:3857')
+    outProj = Proj(init='epsg:4326')
+    x, y = transform(inProj, outProj, df['x'].to_numpy(), df['y'].to_numpy())
+    df['x_trans'] = y
+    df['y_trans'] = x
 
     return df
 
@@ -49,5 +61,6 @@ if __name__ == '__main__':
     df = concat_data_frames(q1, q2, q3, q4)
     df = clean_cols(df)
     df = to_time(df)
+    df = clean_xy_cords(df)
     save(df)
 
