@@ -34,7 +34,7 @@ To explore this False Alarm, False Call category more I had a conversation with 
 
 ![Avoidable_calls](images/false_calls.png)
 
-Here, you can see a total of roughly 1,900 calls "avoidable" calls. 
+Here, you can see a total of 1,813 "avoidable" calls. 
 
 
 
@@ -69,6 +69,7 @@ I wanted to get a better sense of where these calls were occuring. In order to d
 | 24-hour care Nursing Homes                       | 3     |
 | Hotel/Motel, commercial                          | 2     |
 
+------------------------------------------------------------------
 
 First, you can see that the majority of the 5-11 Locks Out calls recieved during the night are from parking areas, parking garages, and gas stations. These locations are likely to be people returning to their cars after visiting an establishment that serves alcohol and thus, could be under the influence. 
 
@@ -83,7 +84,8 @@ Finally taking a look at 733 Malfunction calls due to smoke detector activation.
 In attempt to get a better look at when exactly are these types of calls are occuring, I wanted to look at hour of day vs each different type of call. You can see these results below.
 
 
-![Time vs Day](images/time_vs_day.png)
+![Time vs Day](images/violin1.png)
+
 
 Noteable features here include spikes at rush hours in number of calls and more importantly the occurance of these calls happening during the night.
 
