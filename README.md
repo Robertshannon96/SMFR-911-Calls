@@ -7,6 +7,15 @@ The motivation for this project stemmed from two main sources. The first source 
 
 The second main source of motivation for this project comes from my girlfriend being a new employee for South Metro Fire & rescue. Having little knowledge of the 9-11 industry this project allows me to become more informed on the day-to-day operations of the Fire & Rescue industry. 
 
+
+# The Goal
+
+How can the first responder industry cut down on resources used on 911 calls that are not a main priority that also require waking up fire fighters in the middle of the night to respond to?
+
+The goal of this project is not to specifically answer this question but rather to present an overall view of this problem and the sheer amount of these types of calls fire fighters are attending. 
+
+
+
 -----------------------
 
 
