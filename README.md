@@ -42,7 +42,7 @@ Here, you can see a total of 1,813 "avoidable" calls.
 I wanted to get a better sense of where these calls were occuring. In order to determine if a call is a "nuisance" call or not the location is a major factor. To accomplish this, I specifically wanted to look at where these calls were happening during the middle of the night. 
 
 | 511 lock Outs - Location                            | Count |
-|--------------------------------------|-------|
+|--------------------------------------|------- |
 | Vehicle Parking Area                 | 8     |
 | Service station, gas station         | 3     |
 | Multi-family residence               | 2     |
@@ -84,7 +84,7 @@ Finally taking a look at 733 Malfunction calls due to smoke detector activation.
 In attempt to get a better look at when exactly are these types of calls are occuring, I wanted to look at hour of day vs each different type of call. You can see these results below.
 
 
-![Time vs Day](images/violin2.png)
+![Time vs Day](images/violin1.png)
 
 
 Noteable features here include spikes at rush hours in number of calls and more importantly the occurance of these calls happening during the night.
