@@ -111,11 +111,11 @@ The main goal here is to look at clusters of these events. I wanted to identify 
 Looking at the gif generated below, you can see red clusters of data points. These red clusters would be examples of a possible chance to avoid a call and not assign any personnel to.
 
 
-![](images/heat_map.gif)
+![](images/heatmap.gif)
 
 
 # Conclusion & Future Work
 
 This projects serves as an overview of this problem and not a solution. In future work a deeper analysis should be conducted on more than one year of data. With more data behind these graphs a better understanding of trends could be seen.
 
-Based of my findings, a program needs to be implemted here by dispatchers when recieving these type of calls. When a call is recieved in this category a criteria needs to be evaluated. First, the dispatcher needs to note the time and the current status of the on-duty fire fighters. Second, the location of where the call is recieved from is a major indicator of the situation and weather it can be avoided. 
+Based of my findings, a program needs to be implemted here by dispatchers when recieving these type of calls. When a call is recieved in this category a criteria needs to be evaluated. First, the dispatcher needs to note the time and the current status of the on-duty fire fighters. Second, the location of where the call is recieved from is a major indicator of the situation and weather it can be avoided. Finally, weather or not the location is from a occuring location is pivotal information when trying to take action.
