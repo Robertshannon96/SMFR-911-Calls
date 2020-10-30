@@ -1,3 +1,10 @@
+# The Goal
+
+How can the first responder industry cut down on resources used on 911 calls that are not a main priority that also require waking up fire fighters in the middle of the night to respond to?
+
+The goal of this project is not to specifically answer this question but rather to present an overall view of this problem and the sheer amount of these types of calls fire fighters are attending.  
+
+
 # Background & Motivation
 
 [Addicted to Awake: Sleep Deprivation in the Fire Service](https://www.fireengineering.com/2018/11/15/196617/addicted-to-awake/#:~:text=This%20coincides%20with%20Barger's%20research,did%20not%20screen%20as%20positive.) dives into the reportings of the International Journal of Cancer who reported that the likelihood of a firefighter getting cancer goes up exponentitally when the indiviudal is sleep deprived. It has been found that sleep deprived women have a 40% increased risk of breast cancer and sleep deprived men have a 50 % increased risk of prostate and colorectal cancer. On top of an increase risk of cancer, the [Institute of Medicine (US) Committee on Sleep Medicine and Research](https://pubmed.ncbi.nlm.nih.gov/20669438/) reported that less than 7 hours of consecutive sleep leads to increase risk of cardiovascular disease, anxiety, depressed mood/alcohol use, obesity and diabetes.
@@ -8,17 +15,6 @@ The motivation for this project stemmed from two main sources. The first source 
 The second main source of motivation for this project comes from my girlfriend being a new employee for South Metro Fire & rescue. Having little knowledge of the 9-11 industry this project allows me to become more informed on the day-to-day operations of the Fire & Rescue industry. 
 
 
-# The Goal
-
-How can the first responder industry cut down on resources used on 911 calls that are not a main priority that also require waking up fire fighters in the middle of the night to respond to?
-
-The goal of this project is not to specifically answer this question but rather to present an overall view of this problem and the sheer amount of these types of calls fire fighters are attending. 
-
-
-
------------------------
-
-
 
 # Data
 
@@ -26,13 +22,21 @@ The data used in this project comes directly from [South Metro Fire & Rescue](ht
 
 The complete dataset consists of 42 different attributes of every 9-11 call recieved by SMFR during the 2019 year. For this analysis I cut the data down into 22 attributes with the most used attributes being x/y coordniates, Date time, and type of incident.
 
+
+## Types of calls
+
+511 Lock out - Car keys locked inside of car.
+743 Unintentional Smoke detector activation
+
+
+
 -------------------------------------------------------
 
 
 
 
 # Exploratory Data Analysis
-Beginning by importing and cleaning the data using `pandas`, my goal was to look at all the different tpyes of call recieved by SMFR. In order to look at these I pulled the top categories and filtered out the top four. 
+Beginning by importing and cleaning the data using `pandas`, my goal was to look at all the different types of call recieved by SMFR. In order to look at these I pulled the top categories and filtered out the top four. 
 
 
 ![911_Calls](images/911_calls.png)
@@ -93,7 +97,7 @@ Finally taking a look at 733 Malfunction calls due to smoke detector activation.
 In attempt to get a better look at when exactly are these types of calls are occuring, I wanted to look at hour of day vs each different type of call. You can see these results below.
 
 
-![Time vs Day](images/violin1.png)
+![Time vs Day](images/violin_plot.png)
 
 
 Noteable features here include spikes at rush hours in number of calls and more importantly the occurance of these calls happening during the night.
@@ -104,11 +108,14 @@ Noteable features here include spikes at rush hours in number of calls and more 
 
 The main goal here is to look at clusters of these events. I wanted to identify specific locations that had repeated calls to. For example looking at our previous table, if there was a parking lot located near a downtown area that had multiple calls to, then a 9-11 operator would be able to identify this call and make an informed descison on how to handle it.
 
-Looking at the gif generated below, you can see red clusters of data points. These red clusters would be examples of a possible chance to avoid a call and not assign any personell to.
+Looking at the gif generated below, you can see red clusters of data points. These red clusters would be examples of a possible chance to avoid a call and not assign any personnel to.
 
 
 ![](images/heat_map.gif)
 
 
-# Conclusion
+# Conclusion & Future Work
 
+This projects serves as an overview of this problem and not a solution. In future work a deeper analysis should be conducted on more than one year of data. With more data behind these graphs a better understanding of trends could be seen.
+
+Based of my findings, a program needs to be implemted here by dispatchers when recieving these type of calls. When a call is recieved in this category a criteria needs to be evaluated. First, the dispatcher needs to note the time and the current status of the on-duty fire fighters. Second, the location of where the call is recieved from is a major indicator of the situation and weather it can be avoided. 
