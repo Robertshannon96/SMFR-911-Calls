@@ -25,8 +25,11 @@ The complete dataset consists of 42 different attributes of every 9-11 call reci
 
 ## Types of calls
 
-511 Lock out - Car keys locked inside of car.
-743 Unintentional Smoke detector activation
+* 511 Lock out: Car keys locked inside of car.
+
+* 743 Unintentional smoke detector activation - smoke alarm acidentally activated, no fire.
+
+* 733 malfunction due to smoke dectector - smoke detector malfucntioned and acidentally activates, no fire.
 
 
 
