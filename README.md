@@ -84,7 +84,7 @@ Finally taking a look at 733 Malfunction calls due to smoke detector activation.
 In attempt to get a better look at when exactly are these types of calls are occuring, I wanted to look at hour of day vs each different type of call. You can see these results below.
 
 
-![Time vs Day](images/violin1.png)
+![Time vs Day](images/violin2.png)
 
 
 Noteable features here include spikes at rush hours in number of calls and more importantly the occurance of these calls happening during the night.
