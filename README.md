@@ -7,6 +7,8 @@ The goal of this project is not to specifically answer this question but rather 
 
 # Background & Motivation
 
+South Metro Fire & Rescue is sought to be one of the best fire departments with cutting edge trainig departments along with top tier safety ratings. Other fire programs around the country often look to SMFR for guidence. SMFR is committed to helping a 300 square mile area including Arapahoe, Douglas, and Jefferson counties. They provide emergency and prevention services to approximately 540,000 residents of Colorado. 
+
 [Addicted to Awake: Sleep Deprivation in the Fire Service](https://www.fireengineering.com/2018/11/15/196617/addicted-to-awake/#:~:text=This%20coincides%20with%20Barger's%20research,did%20not%20screen%20as%20positive.) dives into the reportings of the International Journal of Cancer who reported that the likelihood of a firefighter getting cancer goes up exponentitally when the indiviudal is sleep deprived. It has been found that sleep deprived women have a 40% increased risk of breast cancer and sleep deprived men have a 50 % increased risk of prostate and colorectal cancer. On top of an increase risk of cancer, the [Institute of Medicine (US) Committee on Sleep Medicine and Research](https://pubmed.ncbi.nlm.nih.gov/20669438/) reported that less than 7 hours of consecutive sleep leads to increase risk of cardiovascular disease, anxiety, depressed mood/alcohol use, obesity and diabetes.
 
 
@@ -121,4 +123,4 @@ Looking at the gif generated below, you can see red clusters of data points. The
 
 This projects serves as an overview of this problem and not a solution. In future work a deeper analysis should be conducted on more than one year of data. With more data behind these graphs a better understanding of trends could be seen.
 
-Based of my findings, a program needs to be implemted here by dispatchers when recieving these type of calls. When a call is recieved in this category a criteria needs to be evaluated. First, the dispatcher needs to note the time and the current status of the on-duty fire fighters. Second, the location of where the call is recieved from is a major indicator of the situation and weather it can be avoided. Finally, weather or not the location is from a occuring location is pivotal information when trying to take action.
+After a discussion with a SMFR employee it is clear that they have a handle on this situation and are actively cutting down resouces used for these types of calls. After being shown more up-to-date data, a clear drop in the number of these calls that received attention is seen.
