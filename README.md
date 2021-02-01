@@ -123,4 +123,4 @@ Looking at the gif generated below, you can see red clusters of data points. The
 
 This projects serves as an overview of this problem and not a solution. In future work a deeper analysis should be conducted on more than one year of data. With more data behind these graphs a better understanding of trends could be seen.
 
-After a discussion with a SMFR employee it is clear that they have a handle on this situation and are actively cutting down resouces used for these types of calls. After being shown more up-to-date data, a clear drop in the number of these calls that received attention is seen.
+In order to protect the longevity of firefighters, I suggest that these calls be distributed to current on duty personell. If an operator recieves these specific calls during the noted hours, either differ to local security that may be already in the area, or refer the caller to a locksmith that can also assist the caller in their needs.
